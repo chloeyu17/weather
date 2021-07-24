@@ -1,0 +1,60 @@
+:root {
+    --fonts: 'Noto Sans', sans-serif;
+    --blue1: #9bc8cb;
+    --blue2: #cce0f0;
+    --green1: #86aa9c;
+    --grey1: #7a7f85;
+    --grey2: #ecf0f2;
+}
+
+.head-back{
+    background-color: var(--green1);
+}
+
+.aside-back{
+    background-color: var(--blue1);
+}
+
+.heading {
+    color: var(--grey2);
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: var(--fonts);
+}
+
+.grey1{
+    background-color: var(--grey2);
+}
+
+.grey2{
+    background-color: var(--grey1);
+    color: var(--grey2);
+}
+
+.form-control {
+    font-family: var(--fonts);
+    width: 15%;
+}
+
+div h5 {
+    margin-bottom: 1.5rem;
+    font-family: var(--fonts);
+}
+
+.btn {
+    font-family: var(--fonts);
+}
+
+.forecast-day{
+    background-color: var(--blue1);
+}
+
+.mb-0 {
+    font-family: var(--fonts);
+}
+
+#search-history-list{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
